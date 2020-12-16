@@ -1,0 +1,49 @@
+html {
+    background: url(background.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+main {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: overline;
+}
+
+a {
+    font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float:left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.boxed {
+    outline-style: solid;
+    background-color: white;
+    opacity: 0.8;
+    padding: 20px;
+    
+}

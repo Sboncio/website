@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Samuel Asquith - {{ subject }}</title>
+        <link rel="stylesheet" href='/static/css/main.css'>
+    </head>
+    <body>
+        <!--<img src="{{url_for('static', filename='background.jpg')}}" align="middle" /> -->
+        <ul>
+            <li><a href="{{ url_for('home') }}">Home</a></li>
+            <li><a href="{{ url_for('education') }}">Education</a></li>
+            <li><a href="{{ url_for('experience') }}">Experience</a></li>
+            <li><a href="{{ url_for('skills') }}">Skills</a></li>
+        </ul>
+            <h1>{{ subject }}</h1>
+        
+    </body>
+    {% block content %}
+    {% endblock %}
+
+</html>
