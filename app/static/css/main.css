@@ -17,7 +17,7 @@ main {
 
 a {
     font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 ul {
@@ -54,6 +54,14 @@ ul li a:hover{
 }*/
 
 /*Test start */
+
+.icon a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: xx-large;
+    text-decoration: overline;
+    font-weight: bolder;
+}
 
 * {
     box-sizing: border-box;
