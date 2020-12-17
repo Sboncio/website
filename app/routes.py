@@ -1,5 +1,5 @@
 from app import app
-from flask import render_template, url_for
+from flask import render_template, url_for, send_file
 
 @app.route('/')
 @app.route('/home')
@@ -17,3 +17,12 @@ def experience():
 @app.route('/skills')
 def skills():
     return render_template('skills.html', subject = "Skills")
+   
+
+@app.route('/projects')
+def projects():
+    return render_template('projects.html', subject = "")
+
+@app.route('/cv')
+def cv():
+    return send_file('static/css/S_Asquith.pdf')
