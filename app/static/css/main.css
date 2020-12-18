@@ -3,16 +3,21 @@ html {
     background-size: cover;
   }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main {
     color: white;
     font-size: xx-large;
     text-align: center;
     text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
     font-size: large;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -23,11 +28,12 @@ ul {
     background-color: #333;
 }
 
-li{
+ul li{
     float:left;
+    
 }
 
-li a{
+ul li a{
     display: block;
     color: white;
     text-align: center;
@@ -35,15 +41,94 @@ li a{
     text-decoration: none;
 }
 
-li a:hover{
+ul li a:hover{
     background-color: white;
     color: black;
 }
-
+/*
 .boxed {
     outline-style: solid;
     background-color: white;
     opacity: 0.8;
-    padding: 20px;
     
+}*/
+
+/*Test start */
+
+.icon a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: xx-large;
+    text-decoration: overline;
+    font-weight: bolder;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.box {
+    float: left;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    height:200px;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: large;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/* Test end */
+
+.boxed h4 {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.boxed p {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+project {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github{
+    background: green;
+    color: white;
 }
