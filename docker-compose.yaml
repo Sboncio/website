@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  webpage:
+    image: sboncio/app
+    build: ./app
+    command: gunicorn --workers=3 --bind 0.0.0.0:5000 app:app
+    ports:
+    - target: 5000
+      published: 5000
+      protocol: tcp
+    
