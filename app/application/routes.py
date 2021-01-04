@@ -26,3 +26,7 @@ def projects():
 @app.route('/cv')
 def cv():
     return send_file('static/css/S_Asquith.pdf')
+
+@app.route('/techstack')
+def techstack():
+    return render_template('techstack.html', subject = "Tech Stack")
