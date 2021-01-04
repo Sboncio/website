@@ -160,7 +160,7 @@ footer p{
 .feed{
     background: white;
     width: 40%;
-    float: left;
+    float: right;
     border-color: #000;
     border-radius: 25px;
     border-width:medium;
