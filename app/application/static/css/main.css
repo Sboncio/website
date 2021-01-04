@@ -80,9 +80,18 @@ ul li a:hover{
     background-color: rgb(0,159,189);
   }
 
+.box p{
+    color: rgb(38,204,18);
+}
+
 .box:hover{
     background-color: rgb(38,204,18);
+    color: #000;
 }
+
+
+
+
   
   .clearfix::after {
     content: "";
