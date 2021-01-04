@@ -166,4 +166,9 @@ footer p{
     border-width:medium;
     padding:2px;
     font-size: medium;
+    height: 300px;
+}
+
+.feed h4{
+    font-size: medium;
 }
