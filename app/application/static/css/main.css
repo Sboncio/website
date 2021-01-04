@@ -69,14 +69,20 @@ ul li a:hover{
 
 .box {
     float: left;
-    width: 50%;
+    width: 100%;
     padding: 30px;
     text-align: center;
     height:200px;
     margin-left: auto;
     margin-top: auto;
     font-size: large;
+    border-radius: 25px;
+    background-color: rgb(0,159,189);
   }
+
+.box:hover{
+    background-color: rgb(38,204,18);
+}
   
   .clearfix::after {
     content: "";
