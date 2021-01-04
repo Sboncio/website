@@ -8,10 +8,10 @@ body {
 }
 
 main {
-    color: white;
+    color: black;
     font-size: xx-large;
     text-align: center;
-    text-decoration: overline;
+    text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -42,7 +42,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: white;
+    background-color: rgb(52, 129, 52);
     color: black;
 }
 /*
