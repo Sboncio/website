@@ -152,6 +152,10 @@ footer p{
     color: white;
 }
 
+.alignment{
+    display:inline-block;
+}
+
 .feed{
     background: white;
     width: 40%;
