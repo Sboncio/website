@@ -78,6 +78,7 @@ ul li a:hover{
     font-size: large;
     border-radius: 25px;
     background-color: rgb(0,159,189);
+    color: #000;
   }
 
 .box p{
