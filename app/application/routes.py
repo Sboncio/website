@@ -1,5 +1,6 @@
 from application import app
 from flask import render_template, url_for, send_file
+from application.models import references
 
 @app.route('/')
 @app.route('/home')
@@ -30,3 +31,7 @@ def cv():
 @app.route('/techstack')
 def techstack():
     return render_template('techstack.html', subject = "Tech Stack")
+
+@app.route('/references')
+def references():
+    
