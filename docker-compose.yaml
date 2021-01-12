@@ -9,20 +9,13 @@ services:
       published: 5000
       protocol: tcp
   mysql:
-    image: mysql
+    image: mysql:5.7
     container_name: mysql
-    secrets:
-      - MYSQL_ROOT_PASSWORD
-    restart: on-failure
-    environment:
-      MYSQL_ROOT_PASSWORD: /run/secrets/MYSQL_ROOT_PASSWORD
+    env_file:
+      - SQL_Password.env
     volumes:
       - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
     ports:
-      - target: 3306
-        published: 3306
-
-secrets:
-  MYSQL_ROOT_PASSWORD:
-    external: true
+    - target: 3306
+      published: 3306
     

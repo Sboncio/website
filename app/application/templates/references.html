@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block content %}
+
+{% if references|length == 0 %}
+
+    <h2>No references yet</h2>
+
+{% endif %}
+
+
+
+{% for reference in references %}
+
+    <div>
+        <p><b>Name: </b> {{ reference.author }} </p>
+        <p><b>Contact Email: </b> {{reference.contact }}</p>
+        <p><b>Organization: </b> {{ reference.organization}}</p>
+        <p><b>Message: </b> {{ reference.message }} </p>
+        <p><i>Date Posted: {{reference.date}} </i></p>
+    </div>
+<hr>
+{% endfor %}
+
+{% endblock %}

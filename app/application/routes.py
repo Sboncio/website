@@ -34,4 +34,5 @@ def techstack():
 
 @app.route('/references')
 def references():
-    
+    referenceData = references.query.all()
+    return render_template('references.html', references=referenceData)
