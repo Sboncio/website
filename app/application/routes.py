@@ -1,6 +1,7 @@
-from application import app
-from flask import render_template, url_for, send_file
-from application.models import references
+from application import app, db
+from flask import render_template, url_for, send_file, request
+from application.models import reference
+
 
 @app.route('/')
 @app.route('/home')
@@ -34,5 +35,5 @@ def techstack():
 
 @app.route('/references')
 def references():
-    referenceData = references.query.all()
+    referenceData = reference.query.all()
     return render_template('references.html', references=referenceData)

@@ -1,4 +1,5 @@
 version: '3.7'
+
 services:
   webpage:
     image: sboncio/app
@@ -12,7 +13,7 @@ services:
     image: mysql:5.7
     container_name: mysql
     env_file:
-      - SQL_Password.env
+      - test.env
     volumes:
       - ./schema.sql:/docker-entrypoint-initdb.d/schema.sql
     ports:

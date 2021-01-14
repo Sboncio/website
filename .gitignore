@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 jenkins-install.sh
+test.env
