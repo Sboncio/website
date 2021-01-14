@@ -3,6 +3,7 @@ version: '3.7'
 services:
   webpage:
     image: sboncio/app
+    container_name: webpage
     build: ./app
     command: gunicorn --workers=3 --bind 0.0.0.0:5000 app:app
     ports:
@@ -19,4 +20,5 @@ services:
     ports:
     - target: 3306
       published: 3306
+      protocol: tcp
     

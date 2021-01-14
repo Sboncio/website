@@ -1,6 +1,6 @@
 from application import db
 
-class reference(db.Model):
+class my_reference(db.Model):
     reference_id = db.Column(db.Integer, primary_key=True)
     author = db.Column(db.String(50), nullable = False)
     contact = db.Column(db.String(50), nullable = False)

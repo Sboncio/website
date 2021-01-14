@@ -1,6 +1,6 @@
 from application import app, db
 from flask import render_template, url_for, send_file, request
-from application.models import reference
+from application.models import my_reference
 
 
 @app.route('/')
@@ -33,7 +33,8 @@ def cv():
 def techstack():
     return render_template('techstack.html', subject = "Tech Stack")
 
-@app.route('/references')
+@app.route('/references', methods=['GET'])
 def references():
-    referenceData = reference.query.all()
-    return render_template('references.html', references=referenceData)
+    referenceData = my_reference.query.first()
+    #return render_template('references.html' """, references=referenceData""")
+    return render_template('references.html', subject="References")
