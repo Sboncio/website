@@ -33,8 +33,7 @@ def cv():
 def techstack():
     return render_template('techstack.html', subject = "Tech Stack")
 
-@app.route('/references', methods=['GET'])
+@app.route('/references')
 def references():
-    referenceData = my_reference.query.first()
-    #return render_template('references.html' """, references=referenceData""")
-    return render_template('references.html', subject="References")
+    referenceData = my_reference.query.filter_by(approved=1).all()
+    return render_template('references.html', subject="References", references=referenceData)

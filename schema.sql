@@ -10,10 +10,21 @@ CREATE TABLE my_reference (reference_id INT AUTO_INCREMENT,
     PRIMARY KEY(reference_id));
 
 INSERT INTO my_reference (author_name, author_contact, author_organization,
-    author_message, author_date, approved) SELECT
-    'Sam Asquith',
-    'my email',
-    'AsquithCorp',
-    'He is the greatest guy ever',
-    '2021-01-12',
-    1;
+    author_message, author_date, approved) values(
+        'Sam Asquith',
+        'my email',
+        'AsquithCorp',
+        'He is the greatest guy ever',
+        '2021-01-12',
+        '1'
+    );
+
+INSERT INTO my_reference (author_name, author_contact, author_organization,
+    author_message, author_date, approved) values(
+        'martin',
+        'his email',
+        'MartinAsq',
+        'Amazing bloke',
+        '2021-01-14',
+        '0'
+    );
