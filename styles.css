@@ -72,6 +72,9 @@ nav {
 
 .content p {
   text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 18px;
 }
 
 .skills h4 {
