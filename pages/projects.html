@@ -2,17 +2,17 @@
 <html lang="en">
     <head>
         <title>Samuel Asquith</title>
-        <link rel="stylesheet" href ="styles.css"/>
+        <link rel="stylesheet" href ="../styles.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    </head>
     <body>
-        <a href="index.html">
-            <h1 class="Name">Samuel Asquith</h1>
-          </a>
-        <div class="Header">
+        <header>
+            <a href="index.html">
+                <h1 class="Name">Samuel Asquith</h1>
+            </a>
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html">
+                        <a href="../index.html">
                             Home
                         </a>
                     </li>
@@ -34,23 +34,29 @@
                 </ul> 
             </nav>
 
-        </div>
+        </header>
 
         <div class="content">
             <h2>
                 Current Projects
             </h2>
+            <code>Hover over image to see more details</code>
                 <h4>
                     Autonomous Drone
                 </h4>
-                <p>
-                    I am currently working on an autonomous drone that can be used for 
-                    autonomous drone racing. I aim to follow the complete creation lifecycle
-                    of the project, from design and printing of the chassis, the implementation 
-                    of the separate electronics to the complete creation of the code from the 
-                    ground up.
+                
+                <img src="../images/drone.jpeg" height="200" 
+                onmouseover="document.getElementById('drone').innerHTML=`I am currently 
+                working on an autonomous drone that can be used for 
+                autonomous drone racing. I aim to follow the complete creation lifecycle
+                of the project, from design and printing of the chassis, the implementation 
+                of the separate electronics to the complete creation of the code from the 
+                ground up.`"
+                onmouseleave="document.getElementById('drone').innerHTML=''"
+                />
+                <p id="drone">
+                    
                 </p>
-                <img src="drone.jpeg" height="200"/>
             <hr />
             <hr />
 
@@ -61,15 +67,19 @@
             <h4>
                 Self-Navigating Robot
             </h4>
-            <p>
-                For my dissertation, I created a control system for a differential drive robot
-                that could navigate unknown environments to a destination, while avoiding both
-                static and moving obstacles. When active, the robot would also create a map of
-                its environment for future reference, and would track its route along the map.
-                The project was created using ROS and C++, with a GUI created using Python
-                to activate and control the robot when required.
-            </p>
-            <img src="./turtlebotPi.jpeg" height="200"/>
+            
+            <img src="../images/turtlebotPi.jpeg" height="200" 
+            onmouseover="document.getElementById('turtlebot').innerHTML=`For my dissertation, 
+            I created a control system for a differential drive robot
+            that could navigate unknown environments to a destination, while avoiding both
+            static and moving obstacles. When active, the robot would also create a map of
+            its environment for future reference, and would track its route along the map.
+            The project was created using ROS and C++, with a GUI created using Python
+            to activate and control the robot when required.`"
+            onmouseleave="document.getElementById('turtlebot').innerHTML=''"/>
+
+            <p id="turtlebot"></p>
+
             <p><a href="https://github.com/Sboncio/AutoDrive">Code</a></p>
 
             <hr />

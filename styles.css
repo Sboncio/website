@@ -1,4 +1,15 @@
-.Header ul {
+body {
+  margin: 0;
+  background: grey;
+  padding-bottom: 10%;
+}
+
+header {
+  width: 100%;
+  padding: 10px 0;
+}
+
+header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,7 +24,7 @@ img {
   margin-right: auto;
 }
 
-.Header li a {
+header li a {
   display: block;
   color: white;
   padding: 9px 17px;
@@ -22,7 +33,7 @@ img {
 }
 
 /* When the link is hovered on, its color will change */
-.Header li a:hover {
+header li a:hover {
   background-color: grey;
   color: black;
 }
@@ -64,12 +75,6 @@ a:active {
   text-decoration: none;
 }
 
-body {
-  margin: 0;
-  background: grey;
-  padding-bottom: 10%;
-}
-
 nav {
   width: 100%;
   background-color: black;
@@ -98,10 +103,6 @@ nav {
 
 .skills ul {
   padding-left: 45%;
-}
-
-.header {
-  position: fixed;
 }
 
 .sticky {
