@@ -47,10 +47,10 @@ document.getElementById("heading").innerHTML = `
 </ul> 
 </nav>`
 
-
+const d = new Date();
 document.getElementById("footing").innerHTML = `
 <p>
-    Updated: November 2021
+    Current date: `+ d.toDateString() + `
 </p>
 <a href="https://github.com/Sboncio">
     <i class="fa fa-github" style="font-size:36px; color:white" ></i>
@@ -93,7 +93,7 @@ function skill_scroll() {
                 <br />
                 <br />
 
-                Web Technologies <br />
+                Web Technologies: <br />
                 <br />
                 AWS<br />
                 Azure<br />
@@ -102,7 +102,7 @@ function skill_scroll() {
                 <br />
                 <br />
                   
-                Other Skills<br />
+                Other Skills:<br />
                 <br />
                 ROS (Robot Operating System)<br />
                 SFML<br />
@@ -120,7 +120,7 @@ function skill_scroll() {
                 <br />
                 <br />
 
-                Currently Learning
+                Currently Learning:
                 <br />
                 Rust<br />
                 <a href="rant.html">Visual Basic...</a><br />

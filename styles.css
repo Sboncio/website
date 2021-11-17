@@ -16,7 +16,7 @@ header ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: #000000;
+  background-color: rgb(168, 113, 19);
   display: flex;
 }
 
@@ -36,18 +36,15 @@ header li a {
 
 /* When the link is hovered on, its color will change */
 header li a:hover {
-  background-color: grey;
-  color: black;
+  background-color: rgb(245, 183, 76);
+  color: white;
 }
 
 .Name {
   text-decoration: overline;
   color: white;
   text-align: center;
-}
-
-.Name:hover {
-  color: red;
+  text-shadow: 2px 2px #000000;
 }
 
 .Cymru {
@@ -107,7 +104,7 @@ nav {
 }
 
 .scroll_button {
-  background-color: rgb(53, 52, 52);
+  background-color: rgb(43, 101, 150);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -116,10 +113,11 @@ nav {
   display: inline-block;
   font-size: 16px;
   width: 100%;
+  cursor: pointer;
 }
 
 .scroll_button:hover {
-  background-color: rgb(95, 94, 94);
+  background-color: rgb(58, 134, 196);
 }
 
 .sticky {
