@@ -7,39 +7,14 @@
 
     </head>
     <body>
-      <header>
-        <a href="index.html">
-            <h1 class="Name">Samuel Asquith</h1>
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">
-                        Home
-                    </a>
-                </li>
-                <li>
-                    <a href="Experience.html">
-                    Experience
-                    </a>
-                </li>
-                <li>
-                    <a href="skills.html">
-                        Skills
-                    </a>
-                </li>
-                <li>
-                    <a href="projects.html">
-                        Projects
-                    </a>
-                </li>
-            </ul> 
-        </nav>
+      <header id="heading"></header>
+      
 
-    </header>
+        <div class="content" >
+          <button type="button" id="scroll_button" class="scroll_button" onclick="skill_scroll()">Scroll Skills</button>
+          <div class="skills"  id="skill_content">
 
-        <div class="content">
-          <div class="skills">
+            
               <h4>
                 Programming Languages
               </h4>
@@ -104,16 +79,7 @@
           </div>
         </div>
 
-          <footer>
-            <p>
-                Updated: November 2021
-            </p>
-            <a href="https://github.com/Sboncio">
-                <i class="fa fa-github" style="font-size:36px; color:white" ></i>
-            </a>
-            <a href="https://www.linkedin.com/in/samuel-asquith-857384178/">
-                <i class="fa fa-linkedin" style="font-size:36px; color:white"></i>          
-            </a>
-        </footer>
+        <footer id="footing"></footer>
     </body>
+    <script src="../scripts/common_items.js"> </script>
 </html>
