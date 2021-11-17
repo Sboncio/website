@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  background: grey;
-  background-image: url("images/background.jpeg");
+  background: rgb(63, 146, 216);
   padding-bottom: 10%;
 }
 
