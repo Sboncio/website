@@ -1,85 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Samuel Asquith</title>
-        <link rel="stylesheet" href ="../styles.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    </head>
-    <body>
-        <header id="heading"></header>
-        
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
 
-        <div class="content">
+</style>
+
+    <title>Samuel Asquith</title>
+    <link rel="stylesheet" href ="../styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+    
+
+</head>
+<body>
+    <header id="heading"></header>
 
 
+<div class="parallax" style='background-image: url("../images/drone.jpeg");'></div>
 
-            <h2>
-                Current Projects
-            </h2>
-            <code>Hover over image to see more details</code>
-                <h4>
-                    Autonomous Drone
-                </h4>
-                
-                <img src="../images/drone.jpeg" height="200" 
-                onmouseover="document.getElementById('drone').innerHTML=`I am currently 
-                working on an autonomous drone that can be used for 
-                autonomous drone racing. I aim to follow the complete creation lifecycle
-                of the project, from design and printing of the chassis, the implementation 
-                of the separate electronics to the complete creation of the code from the 
-                ground up.`"
-                onmouseleave="document.getElementById('drone').innerHTML=''"
-                />
-                <p id="drone">
-                    
-                </p>
-            <hr />
-            <hr />
+<div class="parallax_data" >
+    I am currently 
+    working on an autonomous drone that can be used for 
+    autonomous drone racing. I aim to follow the complete creation lifecycle
+    of the project, from design and printing of the chassis, the implementation 
+    of the separate electronics to the complete creation of the code from the 
+    ground up.
+</div>
 
-            <h2>
-                Previous Projects
-            </h2>
-            <hr />
-            <h4>
-                Self-Navigating Robot
-            </h4>
-            
-            <img src="../images/turtlebotPi.jpeg" height="200" 
-            onmouseover="document.getElementById('turtlebot').innerHTML=`For my dissertation, 
-            I created a control system for a differential drive robot
+<div class="parallax" style='background-image: url("../images/turtlebotPi.jpeg");'></div>
+
+<div class="parallax_data" >
+    I created a control system for a differential drive robot
             that could navigate unknown environments to a destination, while avoiding both
             static and moving obstacles. When active, the robot would also create a map of
             its environment for future reference, and would track its route along the map.
             The project was created using ROS and C++, with a GUI created using Python
-            to activate and control the robot when required.`"
-            onmouseleave="document.getElementById('turtlebot').innerHTML=''"/>
+            to activate and control the robot when required.
+    </div>
 
-            <p id="turtlebot"></p>
+    <div class="parallax" style='background-image: url("../images/fuzzylogic.png");'></div>
 
-            <p><a href="https://github.com/Sboncio/AutoDrive">Code</a></p>
-
-            <hr />
-            <h4>
-                Autonomous Collision Detection and Avoidance System
-            </h4>
-            <p>
-                A collision detection and avoidance system was created for self-driving cars
-                to safely detect, asses and avoid obstacles safely while travelling. The system
-                consisted of several hundred fuzzy logic rules, in order to handle any possible
-                combination of vehicle speed, obstacle direction and obstacle size.
-                This system was created using the Matlab scripting language, with testing 
-                scenarios being sequentially generated to ensure safety in all possible combination
-                of conditions.
-            </p>
-            <p><a href="https://github.com/Sboncio/Fuzzy-Logic-Drive-System">Code</a></p>
-
-            
-
+    <div class="parallax_data" >
+        A collision detection and avoidance system was created for self-driving cars
+        to safely detect, asses and avoid obstacles safely while travelling. The system
+        consisted of several hundred fuzzy logic rules, in order to handle any possible
+        combination of vehicle speed, obstacle direction and obstacle size.
+        This system was created using the Matlab scripting language, with testing 
+        scenarios being sequentially generated to ensure safety in all possible combination
+        of conditions.
         </div>
 
+<footer id="footing"></footer>
 
-        <footer id="footing"></footer>
-    
-    
-    </body>
-    <script src="../scripts/common_items.js"> </script>
+</body>
+<script src="../scripts/common_items.js"> </script>
 </html>

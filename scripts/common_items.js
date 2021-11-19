@@ -41,7 +41,7 @@ document.getElementById("heading").innerHTML = `
     </li>
     <li>
         <a href="`+ notInFolder + `projects.html">
-            Projects
+            Personal Projects
         </a>
     </li>
 </ul> 
