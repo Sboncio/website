@@ -173,11 +173,10 @@ footer p {
 }
 
 .parallax_data {
-  height: 50%;
+  height: auto;
   background-color: var(--colour-2);
   font-size: 36px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding: 3%;
   text-align: center;
 }
 
