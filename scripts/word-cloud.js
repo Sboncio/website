@@ -1,11 +1,11 @@
 /*  ======================= SETUP ======================= */
 var config = {
-    trace: true,
-    spiralResolution: 1, //Lower = better resolution
-    spiralLimit: 360 * 5,
-    lineHeight: 0.8,
-    xWordPadding: 0,
-    yWordPadding: 3,
+    trace: false,
+    spiralResolution: 2, //Lower = better resolution
+    spiralLimit: 360 * 10,
+    lineHeight: 0.5,
+    xWordPadding: 5,
+    yWordPadding: 5,
     font: "sans-serif"
 }
 
