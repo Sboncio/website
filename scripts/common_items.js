@@ -44,6 +44,11 @@ document.getElementById("heading").innerHTML = `
             Personal Projects
         </a>
     </li>
+    <li>
+        <a href="`+ notInFolder + `references.html">
+            References
+        </a>
+    </li>
 </ul> 
 </nav>`
 
@@ -120,10 +125,7 @@ function skill_scroll() {
                 <br />
                 <br />
 
-                Currently Learning:
-                <br />
-                Rust<br />
-                <a href="rant.html">Visual Basic...</a><br />
+                
             </div>
             </marquee>
                 

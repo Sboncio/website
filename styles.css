@@ -1,6 +1,13 @@
+:root {
+  /*--colour-1: rgb(63, 146, 216);*/
+  --colour-1: rgb(80, 78, 78);
+  /*--colour-2: rgb(168, 113, 19);*/
+  --colour-2: red;
+}
+
 body {
   margin: 0;
-  background: rgb(63, 146, 216);
+  background-color: var(--colour-1);
   padding-bottom: 100px;
   height: 100%;
 }
@@ -12,7 +19,7 @@ html {
 header {
   width: 100%;
   margin-bottom: 100px;
-  background-color: rgb(63, 146, 216);
+  background-color: var(--colour-1);
   position: fixed;
 }
 
@@ -21,7 +28,7 @@ header ul {
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color: rgb(168, 113, 19);
+  background-color: var(--colour-2);
   display: flex;
 }
 
@@ -41,15 +48,16 @@ header li a {
 
 /* When the link is hovered on, its color will change */
 header li a:hover {
-  background-color: rgb(245, 183, 76);
+  background-color: rgb(240, 101, 101);
   color: white;
 }
 
 .Name {
   text-decoration: overline;
   color: white;
-  text-align: center;
+  text-align: left;
   text-shadow: 2px 2px #000000;
+  padding-left: 2%;
 }
 
 .Cymru {
@@ -87,6 +95,7 @@ nav {
   padding-right: 2%;
   padding-top: 8%;
   padding-bottom: 8%;
+  color: white;
 }
 
 .content p {
@@ -110,7 +119,7 @@ nav {
 }
 
 .scroll_button {
-  background-color: rgb(43, 101, 150);
+  background-color: var(--colour-2);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -120,10 +129,11 @@ nav {
   font-size: 16px;
   width: 100%;
   cursor: pointer;
+  margin-top: 1%;
 }
 
 .scroll_button:hover {
-  background-color: rgb(58, 134, 196);
+  background-color: rgb(240, 101, 101);
 }
 
 .sticky {
@@ -164,9 +174,45 @@ footer p {
 
 .parallax_data {
   height: 50%;
-  background-color: rgb(168, 113, 19);
+  background-color: var(--colour-2);
   font-size: 36px;
   padding-left: 5%;
   padding-right: 5%;
   text-align: center;
+}
+
+td {
+  width: 50%;
+  font-size: 32px;
+  padding: 2%;
+  text-align: center;
+}
+
+.row-title {
+  background-color: rgb(238, 123, 123);
+}
+
+.row-content {
+  background-color: rgb(238, 50, 50);
+}
+table {
+  margin-top: 2%;
+}
+
+th {
+  font-size: 24px;
+}
+
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.quote {
+  border-style: solid;
+  font-size: 24px;
+  width: 22%;
+  padding: 20px;
+  border-radius: 20px;
 }
