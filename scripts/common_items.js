@@ -4,9 +4,7 @@ let inFolder = ""
 
 let skills_scrolling = false;
 
-let initial_skills;
-if (window.location.href.indexOf("skills") != -1)
-    initial_skills = document.getElementById("skill_content").innerHTML
+
 
 
 if (window.location.href.indexOf("index") != -1 || window.location.href.split('/').length == 4) {
@@ -52,10 +50,9 @@ document.getElementById("heading").innerHTML = `
 </ul> 
 </nav>`
 
-const d = new Date();
 document.getElementById("footing").innerHTML = `
 <p>
-    Current date: `+ d.toDateString() + `
+    This site is new and is likely to change frequently.
 </p>
 <a href="https://github.com/Sboncio">
     <i class="fa fa-github" style="font-size:36px; color:white" ></i>
