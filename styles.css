@@ -104,6 +104,10 @@ nav {
   font-size: 18px;
 }
 
+.content h2 {
+  padding-left: 2%;
+}
+
 .skills h4 {
   text-align: center;
   text-decoration: underline;
@@ -208,11 +212,9 @@ td {
 }
 
 .quote {
-  border-style: solid;
   font-size: 24px;
   width: 30%;
   padding: 20px;
-  border-radius: 20px;
 }
 
 #word-cloud {
