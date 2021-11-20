@@ -233,10 +233,7 @@ td {
   
 }
 
-.colour-slider{
-  width:100%;
-}
-
-.colour-slider td{
-  width:33%;
+.slidecontainer{
+  float:right;
+  display:flex;
 }
