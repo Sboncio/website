@@ -18,10 +18,10 @@ if (window.location.href.indexOf("index") != -1 || window.location.href.split('/
 
 document.getElementById("heading").innerHTML = `
 <a href="`+ inFolder + `index.html"> 
-    <h1 class="Name">Samuel Asquith</h1>
+    <h1 class="Name" id="name">Samuel Asquith</h1>
 </a>
 <nav>
-<ul>
+<ul id="navbar">
     <li>
         <a href="`+ inFolder + `index.html">
             Home

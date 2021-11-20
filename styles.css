@@ -1,8 +1,10 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(80, 78, 78);
+  --colour-1: rgb(48, 48, 48);
   /*--colour-2: rgb(168, 113, 19);*/
-  --colour-2: red;
+  --colour-2: purple;
+  --colour-2-1: rgb(150, 51, 150);
+  --colour-2-2: rgb(197, 110, 197);
 }
 
 body {
@@ -22,6 +24,9 @@ header {
   background-color: var(--colour-1);
   position: fixed;
   z-index: 99;
+}
+#val{
+  float:left;
 }
 
 header ul {
@@ -49,15 +54,15 @@ header li a {
 
 /* When the link is hovered on, its color will change */
 header li a:hover {
-  background-color: rgb(240, 101, 101);
+  background-color: var(--colour-2-1);
   color: white;
 }
 
 .Name {
   text-decoration: overline;
-  color: white;
+  color: var(--colour-2-2);
   text-align: left;
-  text-shadow: 2px 2px #000000;
+  /*text-shadow: 2px 2px #ffffff;*/
   padding-left: 2%;
 }
 
@@ -136,7 +141,7 @@ nav {
 }
 
 .scroll_button:hover {
-  background-color: rgb(240, 101, 101);
+  background-color: var(--colour-2-1);
 }
 
 .sticky {
@@ -186,16 +191,16 @@ footer p {
 td {
   width: 50%;
   font-size: 32px;
-  padding: 2%;
+  padding: 0%;
   text-align: center;
 }
 
 .row-title {
-  background-color: rgb(238, 123, 123);
+  background-color: var(--colour-2-2);
 }
 
 .row-content {
-  background-color: rgb(238, 50, 50);
+  background-color: var(--colour-2-1);
 }
 table {
   margin-top: 2%;
@@ -221,7 +226,16 @@ td {
   height: 50%;
 
   width: 100%;
-  margin-top: 10%;
+  margin-top: 2%;
   padding-top: 10%;
   background-color: val(--colour-1);
+  
+}
+
+.colour-slider{
+  width:100%;
+}
+
+.colour-slider td{
+  width:33%;
 }
