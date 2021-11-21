@@ -36,7 +36,7 @@ document.getElementById("heading").innerHTML = `
         </a>
     </li>
     <li>
-        <a href="`+ notInFolder + `skills.html">
+        <a href="`+ notInFolder + `skills-easyread.html">
             Skills
         </a>
     </li>
