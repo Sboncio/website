@@ -20,8 +20,8 @@ document.getElementById("heading").innerHTML = `
 <a href="`+ inFolder + `index.html"> 
     <h1 class="Name" id="name">Samuel Asquith</h1>
 </a>
-<button type="button" onclick="colour_shower()">Edit Colours</button>
-<div class="slidecontainer" id="slidecontainer">            
+<button type="button" onclick="colour_shower()"  class="colour-swap">Edit Colours</button>
+<div class="slidecontainer" id="slidecontainer">           
     <p>Foreground:</p>
     <input type="color" value="#9b0b10" id="colour-picker-foreground">
     <p>Background:</p>
