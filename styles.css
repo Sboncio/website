@@ -1,10 +1,10 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(48, 48, 48);
+  --colour-1: rgb(11, 4, 80);
   /*--colour-2: rgb(168, 113, 19);*/
-  --colour-2: purple;
-  --colour-2-1: rgb(150, 51, 150);
-  --colour-2-2: rgb(197, 110, 197);
+  --colour-2: rgb(155, 11, 27);
+  --colour-2-1: rgb(180, 27, 45);
+  --colour-2-2: rgb(224, 54, 74);
 }
 
 body {
@@ -233,7 +233,7 @@ td {
 
 .slidecontainer{
   float:right;
-  display:flex;
+  display:none;
   background-color: var(--colour-1);
   width: 100%;
 }

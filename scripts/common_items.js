@@ -20,11 +20,12 @@ document.getElementById("heading").innerHTML = `
 <a href="`+ inFolder + `index.html"> 
     <h1 class="Name" id="name">Samuel Asquith</h1>
 </a>
+<button type="button" onclick="colour_shower()">Edit Colours</button>
 <div class="slidecontainer" id="slidecontainer">            
     <p>Foreground:</p>
-    <input type="color" value="#800080" id="colour-picker-foreground">
+    <input type="color" value="#9b0b10" id="colour-picker-foreground">
     <p>Background:</p>
-    <input type="color" value="#303030" id="colour-picker-background">
+    <input type="color" value="#0c0450" id="colour-picker-background">
 </div>
 <nav>
 <ul id="navbar">
@@ -134,4 +135,15 @@ function skill_scroll() {
                 
     `
     }
+}
+
+let colour_change_shown = false;
+
+function colour_shower(){
+    if(colour_change_shown){
+        document.getElementById("slidecontainer").style[ "display"] = "none";
+    } else {
+        document.getElementById("slidecontainer").style[ "display"] = "flex";
+    }
+    colour_change_shown = !colour_change_shown;
 }
