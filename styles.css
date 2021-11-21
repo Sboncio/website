@@ -234,6 +234,12 @@ td {
 .slidecontainer{
   float:right;
   display:flex;
+  background-color: var(--colour-1);
+  width: 100%;
+}
+
+.slidecontainer p{
+  color:white;
 }
 
 .skill-swap{

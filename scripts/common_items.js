@@ -20,8 +20,11 @@ document.getElementById("heading").innerHTML = `
 <a href="`+ inFolder + `index.html"> 
     <h1 class="Name" id="name">Samuel Asquith</h1>
 </a>
-<div class="slidecontainer">            
-    <input type="color" value="#800080" id="colour-picker">
+<div class="slidecontainer" id="slidecontainer">            
+    <p>Foreground:</p>
+    <input type="color" value="#800080" id="colour-picker-foreground">
+    <p>Background:</p>
+    <input type="color" value="#303030" id="colour-picker-background">
 </div>
 <nav>
 <ul id="navbar">
