@@ -54,6 +54,11 @@ document.getElementById("heading").innerHTML = `
             References
         </a>
     </li>
+    <li>
+        <a href="`+ notInFolder + `tetris.html" style="float:right">
+            Bored At Work?
+        </a>
+    </li>
 </ul> 
 </nav>`
 
