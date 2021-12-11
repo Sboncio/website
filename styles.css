@@ -1,10 +1,10 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(11, 4, 80);
+  --colour-1: rgb(99, 96, 96);
   /*--colour-2: rgb(168, 113, 19);*/
-  --colour-2: rgb(155, 11, 27);
-  --colour-2-1: rgb(180, 27, 45);
-  --colour-2-2: rgb(224, 54, 74);
+  --colour-2: rgb(255, 0, 0);
+  --colour-2-1: rgb(248, 109, 109);
+  --colour-2-2: rgb(255, 0 ,0 );
 }
 
 body {
@@ -269,3 +269,7 @@ td {
   color: white;
 }
 
+
+.badge {
+  text-align: center;
+}

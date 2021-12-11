@@ -20,13 +20,13 @@ document.getElementById("heading").innerHTML = `
 <a href="`+ inFolder + `index.html"> 
     <h1 class="Name" id="name">Samuel Asquith</h1>
 </a>
-<button type="button" onclick="colour_shower()"  class="colour-swap">Edit Colours</button>
+<!--<button type="button" onclick="colour_shower()"  class="colour-swap">Edit Colours</button>
 <div class="slidecontainer" id="slidecontainer">           
     <p>Foreground:</p>
     <input type="color" value="#9b0b10" id="colour-picker-foreground">
     <p>Background:</p>
     <input type="color" value="#0c0450" id="colour-picker-background">
-</div>
+</div>-->
 <nav>
 <ul id="navbar">
     <li>
@@ -49,11 +49,11 @@ document.getElementById("heading").innerHTML = `
             Personal Projects
         </a>
     </li>
-    <li>
+    <!--<li>
         <a href="`+ notInFolder + `references.html">
             References
         </a>
-    </li>
+    </li>-->
     <li>
         <a href="`+ notInFolder + `tetris.html" style="float:right">
             Bored At Work?
