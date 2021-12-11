@@ -35,11 +35,11 @@ document.getElementById("heading").innerHTML = `
             Personal Projects
         </a>
     </li>
-    <li>
+    <!--<li>
         <a href="`+ notInFolder + `references.html">
             References
         </a>
-    </li>
+    </li>-->
     <li>
         <a href="`+ notInFolder + `tetris.html" style="float:right">
             Bored At Work?
