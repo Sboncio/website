@@ -17,9 +17,9 @@ if (window.location.href.indexOf("index") != -1 || window.location.href.split('/
 
 
 document.getElementById("heading").innerHTML = `
-<a href="`+ inFolder + `index.html"> 
+<!--<a href="`+ inFolder + `index.html"> 
     <h1 class="Name" id="name">Samuel Asquith</h1>
-</a>
+</a>-->
 <!--<button type="button" onclick="colour_shower()"  class="colour-swap">Edit Colours</button>
 <div class="slidecontainer" id="slidecontainer">           
     <p>Foreground:</p>
@@ -57,6 +57,11 @@ document.getElementById("heading").innerHTML = `
     <li>
         <a href="`+ notInFolder + `tetris.html" style="float:right">
             Bored At Work?
+        </a>
+    </li>
+    <li>
+        <a href="`+ inFolder + `S_Asquith.pdf" style="float:right">
+            CV
         </a>
     </li>
 </ul> 

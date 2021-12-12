@@ -1,10 +1,10 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(99, 96, 96);
+  --colour-1: rgb(99, 97, 97);
   /*--colour-2: rgb(168, 113, 19);*/
-  --colour-2: rgb(255, 0, 0);
-  --colour-2-1: rgb(248, 109, 109);
-  --colour-2-2: rgb(255, 0 ,0 );
+  --colour-2: rgb(76, 129, 245);
+  --colour-2-1: rgb(123, 165, 255);
+  --colour-2-2: rgb(159, 184, 238);
 }
 
 body {
@@ -58,6 +58,15 @@ header li a:hover {
   color: white;
 }
 
+.index-container{
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 7%;
+  width: 50%;
+  margin-left:25%;
+}
+
 .Name {
   text-decoration: overline;
   color: var(--colour-2-2);
@@ -97,7 +106,7 @@ nav {
 }
 
 .content {
-  padding-top: 10%;
+  padding-top: 2%;
   padding-bottom: 8%;
   color: white;
 }
@@ -180,13 +189,44 @@ footer p {
   background-size: cover;
 }
 
+.parallax_index {
+  /* Full height */
+  height: 90%;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax_data {
   height: auto;
   background-color: var(--colour-2);
   font-size: 36px;
   padding: 3%;
+  padding-top:1%;
   text-align: center;
 }
+
+.parallax_data_1 {
+  height: auto;
+  width: auto;
+  background-color: var(--colour-2-1);
+  font-size: 36px;
+  padding: 3%;
+  padding-top:1%;
+  text-align: center;
+}
+
+.bottom-index{
+  height:30%;
+  width:100%;
+  background-color: var(--colour-2-1);
+  padding-left: 10%;
+}
+
+
 
 td {
   width: 50%;
@@ -243,7 +283,7 @@ td {
 }
 
 .skill-swap{
-  background-color: var(--colour-2); /* Green */
+  background-color: var(--colour-2); 
   border: none;
   color: white;
   padding: 15px 32px;
