@@ -1,10 +1,10 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(99, 97, 97);
-  /*--colour-2: rgb(168, 113, 19);*/
-  --colour-2: rgb(76, 129, 245);
-  --colour-2-1: rgb(123, 165, 255);
-  --colour-2-2: rgb(159, 184, 238);
+  --colour-1: rgb(34, 38, 41);
+  /*--colour-2: rgb(16,8, 113, 19);*/
+  --colour-2: rgb(134, 194, 50);
+  --colour-2-1: rgb(97, 137, 47);
+  --colour-2-2: rgb(137, 168, 99);
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   background-color: var(--colour-1);
   padding-bottom: 100px;
   height: 100%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 html {
@@ -67,6 +68,13 @@ header li a:hover {
   margin-left:25%;
 }
 
+#title{
+  color: var(--colour-2);
+  text-align:center;
+  padding:0;  
+  font-size: 45px;
+}
+
 .Name {
   text-decoration: overline;
   color: var(--colour-2-2);
@@ -108,7 +116,7 @@ nav {
 .content {
   padding-top: 2%;
   padding-bottom: 8%;
-  color: white;
+  color: black;
 }
 
 .content p {
@@ -220,7 +228,7 @@ footer p {
 }
 
 .bottom-index{
-  height:30%;
+  height:10%;
   width:100%;
   background-color: var(--colour-2-1);
   padding-left: 10%;
@@ -247,7 +255,9 @@ table {
 }
 
 th {
-  font-size: 24px;
+  font-size: 30px;
+  color: var(--colour-2);
+  
 }
 
 table,
@@ -312,4 +322,32 @@ td {
 
 .badge {
   text-align: center;
+}
+
+
+.skill-boxes{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.skill-box{
+  border-width: 3px;
+  border-style: solid;
+  border-color:  var(--colour-2);
+  border-radius: 25px;
+  
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  float: left;
+  margin: 10px;
+
+  font-size: 45px;
+  font-weight: bold;
+  color:  var(--colour-2);
+}
+
+.skill-box:hover{
+  background-color: var(--colour-2) ;
+  color: var(--colour-1);
 }
