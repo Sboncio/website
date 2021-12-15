@@ -1,6 +1,7 @@
 
 
 function getData(skill) {
+   infoOpen();
    fetch("../data/skill-data.json")
       .then(mockResponses => {
          return mockResponses.json();
@@ -9,7 +10,7 @@ function getData(skill) {
          document.getElementById("skill-description").innerHTML = data[skill]
       );
 
-   infoOpen();
+   
 
 
 }
@@ -23,4 +24,11 @@ function infoClosed() {
    document.getElementById("skill-description").innerHTML = ""
    document.getElementById("skill-info").style.width = "0%";
 
+}
+
+function introduction(){
+   infoOpen();
+   document.getElementById("skill-description").innerHTML = "Hover over the skills and more information \
+   will appear here. This information will be updated, revised and improved over time to better relect my \
+   experience with the skill."
 }

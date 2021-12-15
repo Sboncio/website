@@ -1,15 +1,21 @@
 .name-card {
-  height: 60%;
+  height: 65%;
   background-color: aquamarine;
 
   text-align: center;
   font-size: 64px;
-  font-weight: bolder;
 
   width: 100%;
 
   color: black;
   padding-top: 10%;
+
+  background-image: url('./images/background.png');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .name-subtitle {
