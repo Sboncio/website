@@ -16,6 +16,7 @@ function getData(skill) {
 
 function infoOpen() {
    document.getElementById("skill-info").style.width = "30%";
+
 }
 
 function infoClosed() {
