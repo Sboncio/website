@@ -374,3 +374,28 @@ td {
   color: var(--colour-2-1);
   font-weight: bold;
 }
+
+.experiences{
+  padding-top: 5%;
+}
+.experience-title{
+  background-color: var(--colour-2);
+  height: auto;
+  width: 100%;
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.experience-data{
+  background-color: var(--colour-2-1);
+  height: 0%;
+  width: 100%;
+  text-align: center;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  font-size: 30px;
+  display: flex;
+}
