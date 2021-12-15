@@ -1,0 +1,17 @@
+.name-card {
+  height: 60%;
+  background-color: aquamarine;
+
+  text-align: center;
+  font-size: 64px;
+  font-weight: bolder;
+
+  width: 100%;
+
+  color: black;
+  padding-top: 10%;
+}
+
+.name-subtitle {
+  font-size: 32px;
+}
