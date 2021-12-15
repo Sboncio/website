@@ -45,6 +45,11 @@ document.getElementById("heading").innerHTML = `
             Bored At Work?
         </a>
     </li>
+    <li>
+        <a href="`+ inFolder + `S_Asquith.pdf" style="float:right">
+            CV
+        </a>
+    </li>
 </ul> 
 </nav>`
 

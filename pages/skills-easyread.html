@@ -12,64 +12,71 @@
 
         <div class="content" >
           <h2 id="title">Skills</h2>
+          <p class="fyi">Hover over the skills for more information.</p>
           <hr />
           <!--<a href="skills.html">
             <button class="skill-swap">Word-Cloud Version</button>
           </a>-->
+          <div id="skill-info">
+            <div id="skill-description">
+
+            </div>
+          </div>
 
 
           <div class="skill-boxes">
 
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('C++')" onpointerout="infoClosed()">
               C/C++
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('js')" onpointerout="infoClosed()">
               Javascript
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('java')" onpointerout="infoClosed()">
               Java
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('python')" onpointerout="infoClosed()">
               Python
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('AWS')" onpointerout="infoClosed()">
               AWS
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('HTML')" onpointerout="infoClosed()">
               HTML/CSS
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('react')" onpointerout="infoClosed()">
               React
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('vue')" onpointerout="infoClosed()">
               Vue.js
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('linux')" onpointerout="infoClosed()">
               Linux
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('docker')" onpointerout="infoClosed()">
               Docker
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('kubernetes')" onpointerout="infoClosed()">
               Kubernetes
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('bash')" onpointerout="infoClosed()">
               Bash/Powershell
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('SQL')" onpointerout="infoClosed()">
               SQL
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('ROS')" onpointerout="infoClosed()">
               ROS
             </div>
-            <div class="skill-box">
+            <div class="skill-box" onpointerenter="getData('jenkins')" onpointerout="infoClosed()">
               Jenkins
             </div>
+            <div class="skill-box" onpointerenter="getData('terraform')" onpointerout="infoClosed()">
+              Terraform
+            </div>
             
-
+            
           </div>
-
-
 
           <!--<div class="skills"  id="skill_content">
 
@@ -141,10 +148,11 @@
             <hr />
           </div>-->
         </div>
-
+        
         <footer id="footing"></footer>
     </body>
     <script src="../scripts/common_items.js"> </script>
     <script src="../scripts/colour-change.js"></script>
     <script src="../scripts/skill-test.js"></script>
+    <script type="text/javascript" src="../data/skill-data.json"></script>
 </html>
