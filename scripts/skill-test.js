@@ -10,7 +10,7 @@ function getData(skill) {
          document.getElementById("skill-description").innerHTML = data[skill]
       );
 
-   
+
 
 
 }
@@ -26,9 +26,9 @@ function infoClosed() {
 
 }
 
-function introduction(){
+function introduction() {
    infoOpen();
    document.getElementById("skill-description").innerHTML = "Hover over the skills and more information \
-   will appear here. This information will be updated, revised and improved over time to better relect my \
+   will appear here. This information will be updated, revised and improved over time to better refslect my \
    experience with the skill."
 }
