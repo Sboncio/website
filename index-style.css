@@ -1,6 +1,6 @@
 .name-card {
   height: 65%;
-  background-color: aquamarine;
+  background-color: rgb(34, 38, 41);
 
   text-align: center;
   font-size: 64px;
@@ -10,7 +10,7 @@
   color: black;
   padding-top: 10%;
 
-  background-image: url('./images/background.png');
+  background-image: url("./images/background.png");
 
   background-attachment: fixed;
   background-position: center;
