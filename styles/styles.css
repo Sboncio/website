@@ -343,6 +343,7 @@ td {
   color: var(--colour-2);
 
   cursor: pointer;
+  text-decoration: none;
 }
 
 .skill-box:hover {

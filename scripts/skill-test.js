@@ -15,6 +15,7 @@ function loadSkills() {
             document.getElementById("skill-boxes").innerHTML += `<div class="skill-box" onpointerenter="getData('` + Object.keys(data)[key] + `')" onpointerout="infoClosed()">
                ` + Object.keys(data)[key] + `
             </div>`
+
          }
       }
       )
