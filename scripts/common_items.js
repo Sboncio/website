@@ -149,11 +149,11 @@ function skill_scroll() {
 
 let colour_change_shown = false;
 
-function colour_shower(){
-    if(colour_change_shown){
-        document.getElementById("slidecontainer").style[ "display"] = "none";
+function colour_shower() {
+    if (colour_change_shown) {
+        document.getElementById("slidecontainer").style["display"] = "none";
     } else {
-        document.getElementById("slidecontainer").style[ "display"] = "flex";
+        document.getElementById("slidecontainer").style["display"] = "flex";
     }
     colour_change_shown = !colour_change_shown;
 }

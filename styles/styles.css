@@ -1,9 +1,9 @@
 :root {
   /*--colour-1: rgb(63, 146, 216);*/
-  --colour-1: rgb(34, 38, 41);
+  --colour-1: #1f2833;
   /*--colour-2: rgb(16,8, 113, 19);*/
-  --colour-2: rgb(134, 194, 50);
-  --colour-2-1: rgb(97, 137, 47);
+  --colour-2: #66fcf1;
+  --colour-2-1: #45a29e;
   --colour-2-2: rgb(137, 168, 99);
 }
 
@@ -47,7 +47,7 @@ img {
 
 header li a {
   display: block;
-  color: white;
+  color: var(--colour-1);
   padding: 9px 17px;
   text-decoration: none;
   font-size: 18px;
@@ -323,7 +323,7 @@ td {
 .skill-boxes {
   padding-left: 20%;
   padding-right: 30%;
-  padding-bottom: 30%;
+  padding-bottom: 13%;
 }
 
 .skill-box {
@@ -403,4 +403,70 @@ td {
 .skill-data-heading {
   padding-bottom: 1%;
   padding-top: 0;
+}
+
+.name-card {
+  height: 65%;
+  background-color: var(--colour-1);
+
+  text-align: center;
+  font-size: 64px;
+
+  width: 100%;
+
+  color: black;
+  padding-top: 10%;
+
+  background-image: url("../images/background.png");
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name-subtitle {
+  font-size: 32px;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::marker {
+  display: none;
+}
+
+#uniqueDetailsDiv {
+  display: none;
+
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 2%;
+}
+details:hover #uniqueDetailsDiv {
+  display: block;
+}
+
+details {
+  text-align: center;
+  font-size: 32px;
+}
+
+.odd {
+  background-color: var(--colour-2);
+}
+
+.even {
+  background-color: var(--colour-2-1);
+}
+
+.experiences {
+  padding-top: 3%;
+}
+
+.experience-title {
+  text-align: center;
+
+  margin: 0;
+  background-color: var(--colour-2-1);
 }

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>Samuel Asquith</title>
-        <link rel="stylesheet" href ="../styles.css"/>
+        <link rel="stylesheet" href ="../styles/styles.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    </head>
 
     </head>
@@ -15,146 +15,25 @@
           <p class="fyi" onpointerenter="introduction()" onpointerout="infoClosed()">
             Hover over the skills for more information.
           </p>
-          <hr />
           <!--<a href="skills.html">
             <button class="skill-swap">Word-Cloud Version</button>
           </a>-->
           <div id="skill-info">
-            <div id="skill-description">
-
-            </div>
+            <div id="skill-description"></div>
           </div>
 
 
-          <div class="skill-boxes" id="skill-boxes">
+          <div class="skill-boxes" id="skill-boxes"></div>
 
-            <!--<div class="skill-box" onpointerenter="getData('C++')" onpointerout="infoClosed()">
-              C/C++
-            </div>
-            <div class="skill-box" onpointerenter="getData('js')" onpointerout="infoClosed()">
-              Javascript
-            </div>
-            <div class="skill-box" onpointerenter="getData('java')" onpointerout="infoClosed()">
-              Java
-            </div>
-            <div class="skill-box" onpointerenter="getData('python')" onpointerout="infoClosed()">
-              Python
-            </div>
-            <div class="skill-box" onpointerenter="getData('AWS')" onpointerout="infoClosed()">
-              AWS
-            </div>
-            <div class="skill-box" onpointerenter="getData('HTML')" onpointerout="infoClosed()">
-              HTML/CSS
-            </div>
-            <div class="skill-box" onpointerenter="getData('react')" onpointerout="infoClosed()">
-              React
-            </div>
-            <div class="skill-box" onpointerenter="getData('vue')" onpointerout="infoClosed()">
-              Vue.js
-            </div>
-            <div class="skill-box" onpointerenter="getData('linux')" onpointerout="infoClosed()">
-              Linux
-            </div>
-            <div class="skill-box" onpointerenter="getData('docker')" onpointerout="infoClosed()">
-              Docker
-            </div>
-            <div class="skill-box" onpointerenter="getData('kubernetes')" onpointerout="infoClosed()">
-              Kubernetes
-            </div>
-            <div class="skill-box" onpointerenter="getData('bash')" onpointerout="infoClosed()">
-              Bash/Powershell
-            </div>
-            <div class="skill-box" onpointerenter="getData('SQL')" onpointerout="infoClosed()">
-              SQL
-            </div>
-            <div class="skill-box" onpointerenter="getData('ROS')" onpointerout="infoClosed()">
-              ROS
-            </div>
-            <div class="skill-box" onpointerenter="getData('jenkins')" onpointerout="infoClosed()">
-              Jenkins
-            </div>
-            <div class="skill-box" onpointerenter="getData('terraform')" onpointerout="infoClosed()">
-              Terraform
-            </div>-->
-            
-            
-          </div>
-
-          <!--<div class="skills"  id="skill_content">
-
-              <hr />
-              <h4>
-                Programming Languages
-              </h4>
-              <ul>
-                <li>C/C++</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>Javascript</li>
-                <li>MatLab</li>
-              </ul>
-
-              <hr />
-
-              <h4>
-                Frameworks
-              </h4>
-              <ul>
-                <li>Flask</li>
-                <li>Vue.js</li>
-                <li>React</li>
-                <li>TensorFlow</li>
-              </ul>
-
-              <hr />
-
-              <h4>
-                Web Technologies
-              </h4>
-              <ul>
-                <li>AWS</li>
-                <li>Azure</li>
-                <li>GCP</li>
-              </ul>
-            
-
-            <hr />
-
-            <h4>
-              Other Skills
-            </h4>
-            <ul>
-              <li>ROS (Robot Operating System)</li>
-              <li>SFML</li>
-              <li>Docker (Swarm/Compose)</li>
-              <li>SQL</li>
-              <li>Jenkins</li>
-              <li>Kubernetes</li>
-              <li>GNU/Linux (Debian,Ubuntu,Mint,Fedora,Arch)</li>
-              <li>Bash</li>
-              <li>Ansible</li>
-              <li>Box2D</li>
-              <li>Terraform</li>
-              <li>AWS</li>
-            </ul>
-            <hr /> 
-            <h4>Additional Qualifications</h4>
-            <div class="badge">
-              <div data-iframe-width="300" data-iframe-height="540" 
-              data-share-badge-id="80c69e9d-3513-4217-af2d-4c340b0304b1" 
-              data-share-badge-host="https://www.credly.com"></div>
-              <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js">
-                  
-              </script>
-            </div>
-            <hr />
-          </div>-->
+          
         </div>
+        <hr />
+        <h2 id="title">Additional Qualifications</h2>
+        <div class='badge'><div data-iframe-width='150' data-iframe-height='270' data-share-badge-id='80c69e9d-3513-4217-af2d-4c340b0304b1'data-share-badge-host='https://www.credly.com'></div><script type='text/javascript' async src='//cdn.credly.com/assets/utilities/embed.js'></script></div>
         
         <footer id="footing"></footer>
     </body>
     <script src="../scripts/common_items.js"> </script>
-    <script src="../scripts/colour-change.js"></script>
     <script src="../scripts/skill-test.js"></script>
     <script type="text/javascript" src="../data/skill-data.json"></script>
 </html>

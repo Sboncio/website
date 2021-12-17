@@ -57,6 +57,6 @@ function infoClosed() {
 function introduction() {
    infoOpen();
    document.getElementById("skill-description").innerHTML = "Hover over the skills and more information \
-   will appear here. This information will be updated, revised and improved over time to better refslect my \
+   will appear here. This information will be updated, revised and improved over time to better reflect my \
    experience with the skill."
 }
