@@ -15,5 +15,6 @@
     "Terraform": "I used terraform to create and configure AWS systems automatically, ensuring that they're set up in a correct fashion for the application to be desployed correctly.",
     "React": "At my time with IBM, I utilised the React framework to create web apps, and have since continued my education of the framework.",
     "Vue":"I used Vue.js as the framework for my first major project at IBM, using it to create expansive web applications tailored for the needs of the client.",
-    "VB": "I have made use of Visual Basic since my time at college, and have since used it on a project while working with IBM. I have utilised the language to create user interfaces and enable communication between several other applications."
+    "VB": "I have made use of Visual Basic since my time at college, and have since used it on a project while working with IBM. I have utilised the language to create user interfaces and enable communication between several other applications.",
+    "MATLAB": "I have used MATLAB to create several projects while part of my university education. A project of note using this language was an autonomous car collision detection and avoidance system, which utilised the fuzzy logic tools available in MATLAB."
 }
