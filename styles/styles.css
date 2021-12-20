@@ -31,6 +31,7 @@ header {
 }
 
 header ul {
+  overflow: auto;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -276,7 +277,7 @@ td {
 
   width: 100%;
   padding-top: 15%;
-  background-color: val(--colour-1);
+  background-color: var(--colour-1);
 }
 
 .slidecontainer {
@@ -470,4 +471,15 @@ details {
 
   margin: 0;
   background-color: var(--colour-2-1);
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  #heading,
+  .content,
+  .parallax_data,
+  .parallax_data_1,
+  .parallax_index {
+    width: 100%;
+  }
 }
