@@ -60,7 +60,7 @@ document.getElementById("heading").innerHTML = `
 
 document.getElementById("footing").innerHTML = `
 <p>
-    This site is new and is likely to change frequently.
+    Samuel Asquith
 </p>
 <a href="https://github.com/Sboncio">
     <i class="fa fa-github" style="font-size:36px; color:white" ></i>
