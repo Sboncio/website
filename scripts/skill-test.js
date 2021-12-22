@@ -44,6 +44,11 @@ function getData(skill) {
 
 }
 
+function badgeDescription() {
+   document.getElementById("skill-description").innerHTML = "<h4 class='skill-data-heading'>AWS Certified Cloud Practitioner</h4><hr />I obtained this badge from AWS in December 2021. Using past experience from my previous DevOps role, I continued with the training in various aspects of AWS. Clicking on the badge will display more information regarding the qualification, and evidence that I passed.";
+   infoOpen();
+}
+
 function infoOpen() {
    document.getElementById("skill-info").style.width = "30%";
 
