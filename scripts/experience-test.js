@@ -5,7 +5,7 @@ fetch("../data/experience-data.json")
     .then(data => {
         //console.log(data[0].title)
         for (let i = 0; i < data.length; i++) {
-            let order = "";
+            /*let order = "";
             if (i % 2 == 0) {
                 order = "even"
             } else {
@@ -20,7 +20,16 @@ fetch("../data/experience-data.json")
                     <div id="uniqueDetailsDiv"><hr />` +
                 data[i].description
                 + `</div>
-            </details><br/>`
+            </details><br/>`*/
+
+            document.getElementById("experiences").innerHTML += `
+            <div class='parallax_data'>
+            <h5>`+ data[i].title +`</h5>` +
+            `<br />` + data[i].location + 
+            `<br />` + data[i].date +
+            `<br />` + data[i].description +
+            `</div>` +
+            `<hr />`
         }
     }
     )
